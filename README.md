@@ -6,6 +6,12 @@ The Plant Type Predictor is a Flask web application designed to assist in agricu
 
 To get a local copy up and running follow these simple steps.
 
+## Model Regression
+
+The KNeighborsClassifier is a machine learning algorithm used for classification tasks, such as predicting the class or category of a given input based on its features. It's part of the k-nearest neighbors (KNN) family of algorithms.
+- The KNeighborsClassifier algorithm works on the principle of finding the k-nearest neighbors of a data point based on some distance metric (e.g., Euclidean distance).
+- When you give it a new data point to classify, it looks at the k nearest data points in the training dataset and assigns the class label based on the majority class among those neighbors.
+
 ### Prerequisites
 
 - Python
@@ -32,16 +38,15 @@ To get a local copy up and running follow these simple steps.
 5. **Activate virtual Environment**
     ```sh
     venv\Scripts\activate #Windows
+    
     source venv/bin/activate #macOS/Linux
     ```
 6. **Run python file**
     ```sh
     python app.py
     ```
-## Model Regression
-   - 
-
-
+Access the link provided in the terminal.
+    
 ## Usage
 
 Follow these simple steps to use the application:
@@ -53,15 +58,6 @@ Follow these simple steps to use the application:
 3. **Get Your Prediction**
    - Submit the form to receive the plant type prediction.
 
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 ## Contact
