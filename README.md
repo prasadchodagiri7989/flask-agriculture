@@ -8,7 +8,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Python 3.8 or newer
+- Python
 - pip
 
 ### Installation
@@ -25,11 +25,22 @@ To get a local copy up and running follow these simple steps.
     ```sh
     pip install -r requirements.txt
     ```
-4. **Run the Flask Application**
+4. **Create virtual Environment**
     ```sh
-    flask run
+    python -m venv venv
     ```
-    Now, visit `http://127.0.0.1:5000/` in your web browser to start using the app locally.
+5. **Activate virtual Environment**
+    ```sh
+    venv\Scripts\activate #Windows
+    source venv/bin/activate #macOS/Linux
+    ```
+6. **Run python file**
+    ```sh
+    python app.py
+    ```
+## Model Regression
+   - 
+
 
 ## Usage
 
@@ -38,7 +49,7 @@ Follow these simple steps to use the application:
 1. **Open the Web Application**
    - Navigate to the live site or your local deployment.
 2. **Enter Soil Parameters**
-   - Input the NPK values, pH, humidity, and rainfall data for your soil.
+   - Input the NPK values, pH, humidity, temperature and rainfall data for your soil.
 3. **Get Your Prediction**
    - Submit the form to receive the plant type prediction.
 
@@ -52,18 +63,10 @@ Contributions are what make the open-source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter)
+Email :- chodagiriprasad5@gmail.com
 
-Project Link: `https://github.com/<your-username>/plant-type-predictor`
+Website Link: `https://flask-agriculture-1.onrender.com`
 
-## Acknowledgements
-
-- Flask
-- Python
-- [Your additional resources or acknowledgments]
